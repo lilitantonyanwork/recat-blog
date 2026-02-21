@@ -1,0 +1,46 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+}
+.df{
+  display: flex;
+}
+.f-wrap{
+  flex-wrap: wrap;
+}
+.a-center{
+  align-items: center;
+}
+.j-center{
+  justify-content: center;
+}
+.j-end{
+  justify-content: flex-end;
+}
+.container{
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+@media screen and (max-width: 1200px) {
+  .container{
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
